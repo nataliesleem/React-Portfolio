@@ -1,23 +1,17 @@
-import "./contact.css"
 function Contact () {
     return (
-        <div id="contact">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.."></input>
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.."></input>
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-  
-    <input type="submit" value="Submit"></input>
-  </form>
+      <div id="contact">
+      <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:+19253008672">925.300.8672</a>
+          <a href="mailto:natalie.sleem@yahoo.com">natalie.sleem@yahoo.com</a>
+          <a href="https://github.com/nataliesleem">GitHub</a>
+          <a href="https://www.linkedin.com/in/natalie-sleem/" target="_blank">LinkedIn</a>
+        </address>
+      </div>
+    </section>
 </div>
 
     )
