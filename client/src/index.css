@@ -101,7 +101,7 @@ main {
   text-align: right;
 }
 
-.hero-banner div {
+.hero-banner section {
   flex: 0 0 90%;
 }
 
@@ -140,7 +140,7 @@ main {
   line-height: 1.1;
 }
 
-.page-section > div {
+.page-section > section {
   flex: 0 0 77%;
 }
 
@@ -182,7 +182,7 @@ main {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.flex-item div {
+.flex-item section {
   background-color: var(--secondary);
   padding: 8px 10px;
 }
@@ -261,7 +261,7 @@ main {
   }
 
   .page-section > h2,
-  .page-section > div {
+  .page-section > section {
     flex: 0 0 100%;
   }
 
