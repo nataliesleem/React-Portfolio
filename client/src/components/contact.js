@@ -1,4 +1,5 @@
 import Contactform from "./Contact/index";
+import "./Contact/index.css"
 
 function Contact () {
     return (
