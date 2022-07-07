@@ -6,7 +6,7 @@ function Contact () {
       <div id="contact">
       <section class="page-section contact" id="contact">
       <h2>Contact Me</h2>
-      <div>
+      <section>
         <address>
           <a href="tel:+19253008672">925.300.8672</a>
           <a href="mailto:natalie.sleem@yahoo.com">natalie.sleem@yahoo.com</a>
@@ -15,7 +15,7 @@ function Contact () {
         <Contactform></Contactform>
         </address>
         
-      </div>
+      </section>
       
     </section>
 </div>
