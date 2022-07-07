@@ -1,3 +1,5 @@
+import Contactform from "./Contact/index";
+
 function Contact () {
     return (
       <div id="contact">
@@ -9,8 +11,11 @@ function Contact () {
           <a href="mailto:natalie.sleem@yahoo.com">natalie.sleem@yahoo.com</a>
           <a href="https://github.com/nataliesleem">GitHub</a>
           <a href="https://www.linkedin.com/in/natalie-sleem/" target="_blank">LinkedIn</a>
+        <Contactform></Contactform>
         </address>
+        
       </div>
+      
     </section>
 </div>
 

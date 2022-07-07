@@ -1,4 +1,4 @@
-
+import resume from "../images/Resume.docx"
 function Header() {
   return (
     <div>
@@ -8,7 +8,7 @@ function Header() {
       <a href="#about">About Me</a>
       <a href="#work">Portfolio</a>
       <a href="#contact">Contact Me</a>
-      <a href="#">Resume</a>
+      <a href={resume} attributes-list download>Resume</a>
     </nav>
   </header>
     </div>
